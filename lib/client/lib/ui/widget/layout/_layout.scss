@@ -1,0 +1,23 @@
+@mixin table-layout {
+    &.table-layout {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+div {
+    &.layout {
+        position: relative;
+        
+        @include table-layout;
+    }
+
+    &.inset-layout {
+        background-color: #5f5f5f;
+        box-shadow: inset 2px 2px 4px rgba(0, 0, 0, .4);
+    }
+
+    table {
+        @include table-layout;
+    }
+}

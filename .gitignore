@@ -1,0 +1,7 @@
+*.db
+*.pb.go
+build/
+lib/client/.packages
+lib/client/.dart_tool/
+lib/client/build/
+lib/client/serve/

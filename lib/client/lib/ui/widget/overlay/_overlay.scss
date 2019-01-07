@@ -1,0 +1,18 @@
+div {
+    &.overlay-veil {
+        height: 100%;
+        left: 0;
+        margin: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    &.overlay-contents {
+        background-color: #eee;
+        border-radius: 4px;
+        padding: 20px;
+        position: absolute;
+        transition: all .25s ease-in-out;
+    }
+}

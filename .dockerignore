@@ -1,0 +1,9 @@
+*.db
+*.pb.go
+.git/
+build/
+Dockerfile
+lib/client/.packages
+lib/client/.dart_tool/
+lib/client/build/
+lib/client/serve/

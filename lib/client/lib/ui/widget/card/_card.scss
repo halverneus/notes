@@ -1,0 +1,25 @@
+div {
+  &.card {
+    background-color: #aaa;
+    border: 0;
+    border-radius: 2px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .4);
+    display: inline-block;
+    margin: 2px 8px;
+    padding: 6px;
+    position: relative;
+    width: 280px;
+
+    @media (max-width: 320px) {
+      width: calc(100% - 40px);
+    }
+  }
+}
+
+@media (max-width: 580px) {
+  td {
+    &.responsive {
+      display: inline-block;
+    }
+  }
+}
